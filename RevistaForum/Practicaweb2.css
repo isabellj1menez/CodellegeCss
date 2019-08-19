@@ -1,0 +1,185 @@
+    @import url('https://fonts.googleapis.com/css?family=Anton&display=swap');
+    @import url('https://fonts.googleapis.com/css?family=Anton|Barlow&display=swap');
+    * {
+        padding: 0%;
+        margin: 0%;
+        box-sizing: border-box;
+    }
+    
+    header {
+        width: 100%;
+        height: 20vh;
+        background: rgb(172, 167, 167);
+        position: relative;
+    }
+    
+    h1 {
+        font-family: 'Barlow', sans-serif;
+        width: 80%;
+        height: 15vh;
+        text-transform: uppercase;
+        font-size: 70px;
+        position: absolute;
+    }
+    
+    header h2 {
+        color: green;
+        top: 10vh;
+        left: 5vw;
+        position: absolute;
+        font-size: 20px;
+    }
+    
+    .o {
+        font-family: 'Arial', sans-serif;
+        color: green;
+    }
+    
+    .botones {
+        width: 100%;
+        height: 10vh;
+    }
+    
+    .botones section {
+        margin: auto 1%;
+    }
+    
+    .botones section input {
+        width: 13%;
+        height: 5vh;
+        background: green;
+        margin: calc(2vh) auto;
+        border: 0ch;
+    }
+    
+    #input1 {
+        width: 19%;
+        height: 5vh;
+        background: rgb(59, 58, 58);
+        margin: calc(2vh) auto;
+        border: 0ch;
+    }
+    /* .cajita2 img {
+    width: 98%;
+    height: 30vh;
+    display: block;
+    margin: auto;
+} */
+    
+    .cajita2 {
+        width: 98%;
+        height: 30vh;
+        background-image: url('./../Imagenes/andromeda-galaxy-755442_1280.jpg');
+        /* background-size: contain; */
+        margin: auto;
+        color: white;
+        position: relative;
+    }
+    
+    .cajita2 div {
+        position: absolute;
+        right: 20vw;
+        top: 10vh;
+    }
+    
+    .cajitas {
+        width: 23%;
+        height: 37vh;
+        border: 2px solid black;
+        float: left;
+        margin: calc(1%);
+    }
+    
+    .cajitas img {
+        width: 100%;
+        height: 37vh;
+        float: left;
+    }
+    
+    #cajitas1 {
+        background: pink;
+        color: white;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    
+    #cajitas1 h3 {
+        margin: 3vh auto 0 auto;
+        font-size: 15px;
+    }
+    
+    .circulo {
+        width: 50%;
+        height: 50%;
+        border-radius: 50%;
+        position: relative;
+    }
+    
+    #cajitas1 .circulo {
+        background: rgb(224, 13, 48);
+        border: 5px solid white;
+        margin: 3vh auto;
+    }
+    
+    #cajitas1 .circulo h3 {
+        font-size: 25px;
+    }
+    
+    #cajitas1 .circulo h4 {
+        font-size: 15px;
+        right: 3vh;
+        position: absolute;
+    }
+    
+    .circulo p {
+        margin: 5vh auto;
+    }
+    
+    #cajitas2 .circulo {
+        border: 5px solid green;
+        font-size: 15px;
+        margin: 1vh auto;
+    }
+    
+    #cajitas2 {
+        background: black;
+        color: white;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    
+    #cajitas2 h3 {
+        margin: 3vh auto 0 auto;
+        font-size: 25px;
+    }
+    
+    #cajitas2 h4 {
+        font-size: 10px;
+    }
+    
+    #cajitas2 h5 {
+        font-size: 10px;
+        text-transform: lowercase;
+        text-align: center;
+    }
+    
+    #cajitas4 div {
+        width: 90%;
+        height: 99%;
+        float: right;
+        position: relative;
+        text-align: center;
+    }
+    
+    #cajitas4 {
+        background-image: url('./../Imagenes/cb6c432755ca58bb4909f265ed18ee08.jpg')
+    }
+    
+    #cajitas4 div h2 {
+        text-transform: uppercase;
+    }
+    
+    #cajitas4 div div {
+        position: absolute;
+        top: 15vh;
+    }

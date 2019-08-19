@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Beth+Ellen|Lacquer&display=swap');
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+    /*sirve como porcentaje*/
+    background: rgb(196, 192, 192);
+    position: relative;
+    /*hace que tome los px del elemento padre para poder utilizas position absolute al hijo*/
+}
+
+header h1 {
+    font-family: 'Beth Ellen', cursive;
+    width: 50vw;
+    height: 20vh;
+    text-align: center;
+    /*margin: auto; centrar la cajita*/
+    position: absolute;
+    /*ya no funciona margin*/
+    top: calc(50vh);
+    /*     funcion que hace que un valor en porcentaje no lo regresa en px*/
+    left: calc(25vw);
+    font-size: 50px;
+}
+
+#ArticuloPrincipal {
+    background: #f3f3f3;
+    width: 70%;
+    height: 95vh;
+    float: left;
+    box-sizing: border-box;
+    padding: 15px;
+}
+
+#ArticuloPrincipal h2 {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+#ArticuloPrincipal section {
+    margin-top: 10px;
+    padding: 5px;
+    height: 60vh;
+    background: rgb(34, 209, 28);
+    color: blueviolet;
+    overflow: hidden;
+}
+
+#ArticuloPrincipal section p {
+    text-align: justify;
+    font-size: 50px;
+}
+
+aside {
+    background: #f1f1f1;
+    width: 30%;
+    height: 95vh;
+    float: left;
+}
+
+aside article section img {
+    width: calc(90%);
+    height: 43vh;
+    display: block;
+    /* para cambiar de lineal a bloque y viseversa*/
+    margin: calc(5%) auto;
+}
+
+footer {
+    clear: both;
+    /*toma los elementos que estan "flotando"*/
+    background: violet;
+    height: 5vh;
+    color: #f3f3f3;
+}
+
+footer p {
+    width: 50vw;
+    margin: auto;
+    text-align: center;
+}
+
+5

@@ -1,0 +1,114 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor {
+    width: 90%;
+    height: 90%;
+    background: dodgerblue;
+    position: relative;
+}
+
+.cuadrito {
+    width: 70px;
+    height: 70px;
+    background: tomato;
+    position: absolute;
+    animation: recorrido 10s linear infinite;
+}
+
+.pelotita {
+    width: 70px;
+    height: 70px;
+    background: purple;
+    position: absolute;
+    border-radius: 50%;
+    animation: recorridos 10s linear infinite;
+}
+
+@keyframes recorridos {
+    0% {
+        top: calc(0%);
+        left: calc(0%);
+        background: pink
+    }
+    10% {
+        top: calc(25%);
+        left: calc(100% - 70px);
+        background: green
+    }
+    20% {
+        top: calc(50%);
+        left: calc(0%);
+        background: red;
+    }
+    30% {
+        top: calc(75%);
+        left: calc(100% - 70px);
+        background: blue;
+    }
+    40% {
+        top: calc(100% - 70px);
+        left: calc(0%);
+        background: yellow;
+    }
+    50% {
+        top: calc(100% - 70px);
+        left: calc(100% - 70px);
+        background: fuchsia;
+    }
+    60% {
+        top: calc(75%);
+        left: calc(0%);
+        background: aquamarine;
+    }
+    70% {
+        top: calc(50%);
+        left: calc(100% - 70px);
+        background: black;
+    }
+    80% {
+        top: calc(25%);
+        left: calc(0%);
+        background: brown;
+    }
+    90% {
+        top: calc(0%);
+        left: calc(100% - 70px);
+        background: darkblue;
+    }
+    100% {
+        top: calc(0%);
+        left: calc(0%);
+        background: chocolate;
+    }
+}
+
+@keyframes recorrido {
+    0% {
+        top: calc(0%);
+        left: calc(0%);
+    }
+    25% {
+        top: calc(0%);
+        left: calc(100% - 70px);
+    }
+    50% {
+        top: calc(100% - 70px);
+        left: calc(100% - 70px);
+    }
+    75% {
+        top: calc(100% - 70px);
+        left: calc(0%);
+    }
+    100% {
+        top: calc(0%);
+        left: calc(0%);
+    }
+}
