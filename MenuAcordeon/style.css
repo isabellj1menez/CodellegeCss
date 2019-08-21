@@ -1,0 +1,33 @@
+.acordeon-menu li {
+    margin-bottom: 20px;
+    list-style: none;
+}
+
+.acordeon-menu input[type=checkbox] {
+    position: absolute;
+    opacity: 1;
+}
+
+.acordeon-menu label {
+    position: relative;
+    display: block;
+    font-size: 40px;
+    background: #f3f3f3;
+    color: #798f9a;
+    border: 1px solid #798f9a;
+    padding: 20px;
+}
+
+.acordeon-menu section {
+    opacity: 0;
+    height: 0;
+    border: 1px solid #798f9a;
+    color: #798f9a;
+    transition: 0.2s;
+}
+
+.acordeon-menu input[type=checkbox]:checked+label+section {
+    opacity: 1;
+    height: auto;
+    padding: 10px 20px;
+}
